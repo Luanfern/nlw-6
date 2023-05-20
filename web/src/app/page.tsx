@@ -9,7 +9,7 @@ export default function Home() {
   const isAuthenticated = cookies().has('token')
 
   return (
-    <main className="grid min-h-screen grid-cols-2">
+    <main className="grid min-h-screen grid-cols-2 font-roboto">
       {/* LEFT */}
       <div className=" relative flex  flex-col items-start justify-between overflow-hidden border-r border-white/10 bg-[url(../assets/bg-stars.svg)] bg-cover px-28 py-16">
         {/* BLUR */}
